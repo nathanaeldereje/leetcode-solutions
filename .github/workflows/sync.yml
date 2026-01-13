@@ -3,7 +3,7 @@ name: Sync LeetCode
 on:
   workflow_dispatch: # Allows you to run this manually for the initial history import
   schedule:
-    - cron: "0 8 * * *" # Runs every day at 8:00 AM UTC
+    - cron: "0 9,20 * * *" # Runs every day at 12:00 PM (Noon) UTC and 1 hour before midnight in gmt +3
 
 jobs:
   build:
