@@ -13,7 +13,7 @@ jobs:
       - name: Sync
         # REPLACE THE HASH BELOW with the one you copied in Step 1. 
         # The hash below is the official v1.7 release hash, which is currently safe.
-        uses: joshcai/leetcode-sync@3666fe85a9d06b5d92d4da31c26e326372e399bd
+        uses: joshcai/leetcode-sync@v1.7
         with:
           github-token: ${{ github.token }}
           leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
