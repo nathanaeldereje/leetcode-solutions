@@ -1,9 +1,13 @@
-# leetcode-solutions
-This repository contains my accepted LeetCode solutions.
-Languages: Python, Pandas, Java, C++
-Purpose: Improve problem-solving and coding interview skills.
+# 💻 leetcode-solutions
 
-# 🔐 Extracting LeetCode Session & CSRF Tokens
+This repository contains my accepted LeetCode solutions.
+
+* **Languages:** Python, Pandas, Java, C++
+* **Purpose:** Improve problem-solving and coding interview skills
+
+---
+
+## 🔐 Extracting LeetCode Session & CSRF Tokens
 
 This guide explains how to safely extract your `LEETCODE_SESSION` and `csrftoken` from your browser. These tokens are commonly used for automation, API access, or personal tooling.
 
@@ -28,8 +32,8 @@ Go to the LeetCode website and sign in to your account.
 
 You can open Developer Tools using:
 
-* **Windows/Linux**: `F12` or `Ctrl + Shift + I`
-* **Mac**: `Cmd + Option + I`
+* **Windows/Linux:** `F12` or `Ctrl + Shift + I`
+* **Mac:** `Cmd + Option + I`
 
 Or:
 
@@ -77,8 +81,8 @@ document.cookie
 
 3. Look for:
 
-   * `LEETCODE_SESSION=...`
-   * `csrftoken=...`
+* `LEETCODE_SESSION=...`
+* `csrftoken=...`
 
 4. Copy their values manually
 
@@ -91,14 +95,6 @@ document.cookie
 * They expire periodically
 * Logging out will invalidate them
 
----
-
-## 💡 Common Use Cases
-
-* Automating LeetCode submissions
-* Fetching problem data
-* Building dashboards or trackers
-* Practicing API-based workflows
 
 ---
 
@@ -110,7 +106,6 @@ Use these tokens responsibly. Automating actions on LeetCode may violate their t
 
 ## ✅ Summary
 
-You can extract your session and CSRF tokens directly from browser cookies using Developer Tools. These tokens allow authenticated requests but must be handled securely.
+You can extract your session and CSRF tokens directly from browser cookies using Developer Tools, and use them together to make authenticated requests. Handle them securely at all times.
 
 ---
-
